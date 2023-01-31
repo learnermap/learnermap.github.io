@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Sobre
 permalink: /about/
 ---
 
@@ -11,6 +11,6 @@ registrar meus progressos e possíveis projetos desenvolvidos.
 
 Tem como foco principal ser um repositório de minhas notas de estudos. Mas caso 
 encontrá-lo na imensidão da internet e algo seja útil, sinta-se livre para 
-utilizar.
+utilizar, contribuir e espalhar a palavra ;). 
 
 > Atualmente utilizando o tema [minima](https://github.com/jekyll/minima).

@@ -33,7 +33,7 @@ específica, outros utilizam algo mais genérico como um
 
 Para ser objetivo e tentar manter o foco, reduzi drasticamente a quantidade de 
 referências. Porém, cada uma delas tem bastante conteúdo e em muitos momentos se
-sobrepõe. 
+sobrepõem. 
 Desta forma, podem ser consultadas de maneira complementar, utilizando-as para
 compor seu roadmap.
 
