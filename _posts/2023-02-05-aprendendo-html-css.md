@@ -56,6 +56,10 @@ abaixo. Em ordem, estão organizados por quantidade de documentação para tutor
 - Podemos utilizar o [Google Fonts](https://www.freecodecamp.org/news/how-to-use-google-fonts-in-your-next-web-design-project-e1ad48f1adfa/) para customizar a tipografia da página. E escolhida a fonte, existem tags específicas para configurar o tamanho, o peso outras configurações.
 - [Botões](https://www.w3schools.com/howto/howto_css_alert_buttons.asp) podem ser criados com a estilização de âncoras, configurando sua referência para a página de destino. Além disso, configurações de cor de fundo e estilização de borda, possibilitará o efeito final de um botão de ação.
 
+- **6 de fevereiro de 2023**
+  - Flexbox: solução de posicionamento de itens em uma página web.
+  - Contém tags que devem ser utilizadas nos elementos pai e filho.
+  - [FlexFroggy](https://flexboxfroggy.com/): Exercícios _gameficados_ para treinar flexbox
 
 ## Meus códigos
 
