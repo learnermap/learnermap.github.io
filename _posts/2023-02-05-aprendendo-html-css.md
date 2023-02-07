@@ -61,6 +61,15 @@ abaixo. Em ordem, estão organizados por quantidade de documentação para tutor
   - Contém tags que devem ser utilizadas nos elementos pai e filho.
   - [FlexFroggy](https://flexboxfroggy.com/): Exercícios _gameficados_ para treinar flexbox
 
+- **7 de fevereiro de 2023**
+  - Alternar orientação de elementos de uma página web com `flex-direction: column`;
+  - Estilizar botões, [outros exemplos](https://www.w3schools.com/css/css3_buttons.asp).
+  - Utilizando ícones em botões com [Font Awesome](https://www.freecodecamp.org/news/how-to-add-font-awesome-icons-to-your-buttons/)
+  - Estilizando botões com _hover_
+  - Utilização de tags semânticas junto ao HTML. Exemplo: No `header` utilizar a tag `nav` para se referir à navegação da página/site.
+  - Criação de links de navegação bem como as páginas destino.
+  - [Utilização de variáveis no css](https://www.freecodecamp.org/news/learn-css-variables-in-5-minutes-80cf63b4025d/) para representar cores, evitando a duplicação de código.
+
 ## Meus códigos
 
 O repositório do projeto [Aprendendo HTML/CSS](https://github.com/learnermap/learning-html-css).
