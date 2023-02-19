@@ -15,10 +15,10 @@ O Github é uma plataforma na web que utiliza o Git como base. Com ele é possí
 
 1. [Instalando e configurando o Git](#1-configrando-o-git)
 2. [Essencial do Git](#2-essencial-do-git)
-3. [Repositórios Remotos](#3-repositorios-remotos)
-4. [Ramificação](#4-ramificacao)
+3. [Repositórios Remotos](#3-repositórios-remotos)
+4. [Ramificação](#4-ramificação)
 5. [Extras](#5-extras)
-6. [Configurar múltiplas contas Git no mesmo computador](#6-configurar-multiplas-contas-no-mesmo-computador)
+6. [Configurar múltiplas contas Git no mesmo computador](#6-configurar-múltiplas-contas-git-no-mesmo-computador)
 
 ## Links úteis
 
@@ -68,7 +68,7 @@ Ao final das configurações, podemos listar os valores:
 $ git config --list
 ```
 
-## 2 - Essencial do Git
+## 2. Essencial do Git
 
 ### Inicializando um repositório
 
