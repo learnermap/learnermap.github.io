@@ -13,12 +13,12 @@ O Github é uma plataforma na web que utiliza o Git como base. Com ele é possí
 
 ## O que estou aprendendo?
 
-1. [Instalando e configurando o Git](#01-configrando-o-git)
-2. [Essencial do Git](#02-essencial-do-git)
-3. [Repositórios Remotos](#03-repositorios-remotos)
-4. [Ramificação](#04-ramificacao)
-5. [Extras](#05-extras)
-6. [Configurar múltiplas contas Git no mesmo computador](#06-configurar-multiplas-contas-no-pc)
+1. [Instalando e configurando o Git](#1-configrando-o-git)
+2. [Essencial do Git](#2-essencial-do-git)
+3. [Repositórios Remotos](#3-repositorios-remotos)
+4. [Ramificação](#4-ramificacao)
+5. [Extras](#5-extras)
+6. [Configurar múltiplas contas Git no mesmo computador](#6-configurar-multiplas-contas-no-mesmo-computador)
 
 ## Links úteis
 
@@ -30,9 +30,9 @@ O Github é uma plataforma na web que utiliza o Git como base. Com ele é possí
 - [Manual Prático de Git/Github](https://guilhermeonrails.github.io/manual-do-git-e-github/)
 - [Como excluir branches locais e remotos do Git](https://www.freecodecamp.org/portuguese/news/como-excluir-branches-locais-e-remotos-do-git/)
 
-## 01. Configurando o Git
+## 1. Configurando o Git
 
-## Instalando o Git
+### Instalando o Git
 
 Em sistemas linux baseados no Debian:
 
@@ -40,7 +40,7 @@ Em sistemas linux baseados no Debian:
 # apt install git
 ```
 
-## Configuração inicial do Git
+### Configuração inicial do Git
 
 Existem diversas configurações possíveis para o git. Inicialmente, podemos utilizar:
 
@@ -68,9 +68,9 @@ Ao final das configurações, podemos listar os valores:
 $ git config --list
 ```
 
-## 02 - Essencial do Git
+## 2 - Essencial do Git
 
-## Inicializando um repositório
+### Inicializando um repositório
 
 - Dentro da pasta do projeto, execute o comando:
 
@@ -98,7 +98,7 @@ git-e-github-para-iniciantes/
 └── Readme.md
 ```
 
-## O ciclo de vida dia status de seus arquivos
+### O ciclo de vida dia status de seus arquivos
 
 - **untracked:** não marcado, acabou de ser add no repo e ainda não foi reconhecido pelo git.
 
@@ -185,7 +185,7 @@ On branch master
 nothing to commit, working tree clean
 ```
 
-## Visualizando logs
+### Visualizando logs
 
 - Para verificar o histório de alterações podemos utilizar:
 
@@ -240,7 +240,7 @@ $ git log --graph
 $ git show 3621c562ca13cd41cde6334c643e8412ab6ac053
 ```
 
-## Visualizando o diff
+### Visualizando o diff
 
 - Visualizando mudanças antes do stage.
 
@@ -266,7 +266,7 @@ index ca6549f..0b73485 100644
 git diff --name-only
 ```
 
-## Desfazendo coisas
+### Desfazendo coisas
 
 
 #### Excluindo alterações antes do stage
@@ -381,9 +381,9 @@ $ git reset --hard 9936c23
 - Sempre informar o hash do commit anterior ao que será excluído!
 - Utilize o reset hard antes do push.
 
-## 03. Repositórios Remotos
+## 3. Repositórios Remotos
 
-## Criando um repositório no Github
+### Criando um repositório no Github
 
 - Com uma conta ativa no Github, 
 
@@ -393,7 +393,7 @@ $ git reset --hard 9936c23
 
 <!-- ![Github](images/create-new-repo.png) -->
 
-## Criando adicionando uma chave SSH
+### Criando adicionando uma chave SSH
 
 - Gerar uma nova chave ssh (*Linux/Debian*)
 
@@ -421,7 +421,7 @@ Copie sua chave pública e crie um novo registro de chave nas configurações do
 
 <!-- ![](images/add-new-ssh-key.png)  -->
 
-## Ligando repositório local a um remoto
+### Ligando repositório local a um remoto
 
 - Utilize as instruções exibidas no momento da criação do repositório:
 
@@ -447,7 +447,7 @@ git push -u origin master
 $ git remote set-url origin <nova-url>
 ```
 
-## Enviando mudanças para um repositório remoto
+### Enviando mudanças para um repositório remoto
 
 - Após enviar pro stage e realizar o commit das alterações:
 
@@ -461,7 +461,7 @@ $ git push origin master
 $ git push --all origin
 ```
 
-## Clonando repositórios remotos
+### Clonando repositórios remotos
 
 - Prefira ssh por ser mais rápido.
 
@@ -469,7 +469,7 @@ $ git push --all origin
 $ git clone gitgit@github.com:learnermap/git-e-github-para-iniciantes.git
 ```
 
-## Fazendo fork de um projeto
+### Fazendo fork de um projeto
 
 - Copia um projeto de terceiros.
 
@@ -477,9 +477,9 @@ $ git clone gitgit@github.com:learnermap/git-e-github-para-iniciantes.git
 	- Realizar as alterações
 	- Enviar um pull-request para as alterações serem adicionadas ao projeto original.
 
-## 04. Ramificação (Branch)
+## 4. Ramificação (Branch)
 
-## O que é um branch e por que usar?
+### O que é um branch e por que usar?
 
 >*"É um ponteiro que leva a um commit."*
 
@@ -487,7 +487,7 @@ $ git clone gitgit@github.com:learnermap/git-e-github-para-iniciantes.git
 - Trabalho simultâneo
 - Evita conflitos
 
-## Criando um branch
+### Criando um branch
 
 - Criando um novo branch de nome testing.
 
@@ -545,7 +545,7 @@ nothing to commit (create/copy files and use "git add" to track)
 
 ```
 
-## Movendo e deletando branches
+### Movendo e deletando branches
 
 - Para listar e alterar entre os branches, utilize:
 
@@ -565,7 +565,7 @@ Deleted branch new-branch (was d0985c5).
 
 **Importante:** Antes de sair de um branch, realize o commit de todas as alterações.
 
-## Renomeando branch
+### Renomeando branch
 
 - Para alterar o nome do branch atual para `main`:
 
@@ -573,12 +573,12 @@ Deleted branch new-branch (was d0985c5).
 $ git branch -M main
 ```
 
-## Entendendo o merge
+### Entendendo o merge
 
 - Mantém o histórico dos commits anteriores em todos os branches.
 - Cria um commit somente para fazer a união dos branches, pode afetar a legibilidade da árvore.
 
-## Entendendo o rebase
+### Entendendo o rebase
 
 - Insere o novo ramo na frente do último commit da master.
 - Altera o histórico, prejudicando a ordem cronológica.
@@ -588,7 +588,7 @@ $ git branch -M main
 $ git pull --rebase
 ```
 
-## Merge e rebase na prática
+### Merge e rebase na prática
 
 - merge: utilizado mais em pull request, para demonstrar a união de dois branches.
 
@@ -611,9 +611,9 @@ $ git pull --rebase
 * d66e61d Add file1
 ```
 
-## 05. Extras
+## 5. Extras
 
-## Criando o `.gitignore`
+### Criando o `.gitignore`
 
 - Ignorar e não *trackear* certos arquivos.
 - Criar um arquivo chamado `.gitignore`.
@@ -630,7 +630,7 @@ Profile
 	- [Doc](https://git-scm.com/docs/gitignore)
 	- [Template](https://github.com/github/gitignore)
 
-## Git stash é lindo
+### Git stash é lindo
 
 - Guarda modificações ainda não commitadas temporariamente.
 
@@ -722,7 +722,7 @@ $ git stash list
 $ git stash clear
 ```
 
-## Alias para que te quero
+### Alias para que te quero
 
 - Assim como no unix, é possível criar aliases para os comandos do git.
 - Alguns aliases utilizados:
@@ -736,7 +736,7 @@ git config --global alias.lg log --pretty=format:"%h %ad - %s" --date=short
 
 ```
 
-## Versionamento com tags
+### Versionamento com tags
 
 - Utilizado para delimitar um grupo de commits.
 - Criando uma tag:
@@ -760,7 +760,7 @@ $ git tag
 No Github, será criado um pacote com o source compactado e com a tag definida no formato de release.
 
 
-## Salvando sua sexta com git revert
+### Salvando sua sexta com git revert
 
 - Utilizado para voltar no fluxo de commits, mas não perder o histórico de alterações.
 - Adicionando um novo arquivo e incluindo no versionamento com commit.
@@ -826,7 +826,7 @@ drwxr-xr-x 5 leanermap leanermap 4096 Jan 23 18:57 ../
 drwxr-xr-x 8 leanermap leanermap 4096 Jan 23 19:35 .git/
 ```
 
-## Apagando tags e branches remotos
+### Apagando tags e branches remotos
 
 - Apagando tag localmente
 
@@ -852,7 +852,7 @@ $ git br -d nome-da-branch
 $ git push origin --delete :nome-da-branch
 ```
 
-# 06. Configurar múltiplas contas Git no mesmo computador
+## 6. Configurar múltiplas contas Git no mesmo computador
 
 Em caso de necessitar logar com duas ou mais contas diferentes do git no mesmo computador, realize as seguintes configurações:
 
