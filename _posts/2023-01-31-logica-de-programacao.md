@@ -11,6 +11,7 @@ published: true
 - [Meu repositório](#meu-repositório)
 - [Scripts](#scripts)
   - [Tags e sintaxe](#tags-e-sintaxe)
+  - [Saída e concatenação](#saída-e-concatenação)
 - [Referências](#referências)
 
 ## Aprendendo Lógica de Programação
@@ -85,6 +86,53 @@ O HTML abaixo, escreve um título na tela e o script JS exibe uma caixa de alert
 ```
 
 > [Tags & Syntax](https://learnermap.github.io/learning-logic/logic-01/codes/01_tags_syntax.html)
+
+### Saída e concatenação
+
+Um sistema computacional é composto basicamente por entrada + processamento + saída. Ou seja, 
+independente da forma, a saída dos dados é uma etapa muito importante.
+
+Nesse exemplo, demonstro uma forma de saída dos dados utilizando JS, utilizando o método `write` do objeto
+`document`.
+
+Em seguida, um exemplo de concatenação em JS. Veja que a ordem dos operadores influencia no resultado.
+
+
+```html
+<html>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:,">
+<body>
+    <h1>Learning Logic with JS</h1> 
+    <p>
+        Ways of display data to user.
+        <ul>
+            <li>alert</li>
+            <li>console</li>
+            <li>write</li>
+        </ul>
+    </p>
+    <script type="text/javascript">
+        alert("Lorem ipsum dolor, sit amet consectetur adipisicing elit.");
+        console.log("Lorem ipsum dolor, sit amet consectetur adipisicing elit.");
+        document.write("Lorem ipsum dolor, sit amet consectetur adipisicing elit.");
+
+        document.write("<br>")
+        document.write("<br>")
+        document.write("Total: " + 2 + 3);
+        document.write("<br>")
+        document.write("Total: " + (2 + 3));
+        document.write("<br>")
+        document.write("Total: " + (2 + 3 * 5));
+        document.write("<br>")
+        document.write("Total: " + ((2 + 3) * 5));
+        document.write("<br>")
+    </script>
+</body>
+</html>
+``` 
+
+> [Output & Concatenation](https://learnermap.github.io/learning-logic/logic-01/codes/02_outputs_concatenation.html)
 
 ## Referências
 
